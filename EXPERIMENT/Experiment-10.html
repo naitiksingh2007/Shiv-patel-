@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase</title>
+  <style>
+    /* Base Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: black;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .welcome {
+      text-align:0;
+      padding: 1.2rem;
+      background-color: whitesmoke;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .bottom-right {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: Georgia, serif;
+    font-size: 0.95em;
+        }
+    
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+      }
+
+      .actions {
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ShopEase</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Categories</a>
+      <a href="#">Deals</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="actions">
+      <a href="#">Cart</a>
+      <a href="#">Login</a>
+    </div>
+  </header>
+   <h1>Welcome to ShopEasy!</h1>
+   <p>Your one-stop destination for all shopping needs.</p>
+   <div class="bottom-right">
+    Name: Naitik Singh <br>
+    Admission No: 2025B01010594
+  </div>
+
+</body>
+
+</html>
